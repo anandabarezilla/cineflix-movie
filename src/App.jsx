@@ -6,8 +6,8 @@ import Popular from "./pages/Popular";
 import Series from "./pages/Series";
 import Countries from "./pages/Countries";
 import PageNotFound from "./pages/PageNotFound";
-import DetailMovie from "./pages/detailMovie";
 import DetailSeries from "./pages/DetailSeries";
+import DetailMovie from "./pages/DetailMovie";
 import Layout from "./pages/Layout";
 
 const router = createBrowserRouter([

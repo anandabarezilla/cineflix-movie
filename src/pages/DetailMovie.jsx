@@ -1,10 +1,11 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import DetailLayout from "../components/Layouts/DetailLayout";
 import { useEffect, useState } from "react";
 import { fetchDetailMovies } from "../services/movies.service";
 
 const DetailMovie = () => {
   const [detailMovies, setDetailMovies] = useState({});
+  console.log(detailMovies);
   const { movieId } = useParams();
   const imgurl = "https://image.tmdb.org/t/p/w500/";
 
